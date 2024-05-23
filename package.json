@@ -1,0 +1,38 @@
+{
+  "name": "astro-minify-html",
+  "version": "0.0.1",
+  "description": "Astro integration to minify HTML",
+  "main": "dist/index.js",
+  "author": "Leonardo Ortiz <leo.ortiz.1312@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/leoortizz/astro-minify-html.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoortizz/astro-minify-html.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [
+    "astro",
+    "astro-integration",
+    "html",
+    "minify",
+    "html-minifier-terser"
+  ],
+  "devDependencies": {
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/node": "^20.12.12",
+    "astro": "^4.8.6",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.2.0"
+  },
+  "type": "module"
+}
