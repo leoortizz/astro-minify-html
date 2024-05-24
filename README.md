@@ -9,13 +9,13 @@ Install the integration using your preferred package manager.
 ### `astro add`
 
 ```bash
-npx astro add astro-html-minifier-terser
+npx astro add astro-minify-html
 ```
 
 ### Manually
 
 ```bash
-npm install -D astro-html-minifier-terser
+npm install -D astro-minify-html
 ```
 
 ```ts
