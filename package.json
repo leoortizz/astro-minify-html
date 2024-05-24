@@ -1,6 +1,6 @@
 {
   "name": "astro-minify-html",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Astro integration to minify HTML",
   "main": "dist/index.js",
   "author": "Leonardo Ortiz <leo.ortiz.1312@gmail.com>",
